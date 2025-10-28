@@ -2,33 +2,50 @@
 <html>
 <head>
 <style>
-div {background-color: green;}
-div a {
+div{
+  background-color: green;
+}
+div a{
   text-decoration: none;
   color: white;
   font-size: 20px;
   padding: 15px;
-  display:inline-block;
+  display: inline-block;
 }
-ul {
+
+ul{
   display: inline;
-  margin: 0;
-  padding: 0;
+  margin: 0; padding: 0;
 }
-ul li {display: inline-block;}
-ul li:hover {background: #555;}
-ul li:hover ul {display: block;}
-ul li ul {
+
+ul li{
+  display: inline-block;
+}
+
+ul li:hover{
+  background: #555;
+}
+ul li:hover ul{
+  display: block;
+}
+ul li ul{
   position: absolute;
   width: 200px;
   display: none;
 }
-ul li ul li {
+
+ul li ul li{
   background: #555;
   display: block;
 }
-ul li ul li a {display:block !important;}
-ul li ul li:hover {background: #666;}
+
+ul li ul li a{
+  display: block !important; 
+}
+
+ul li ul li:hover{
+  background: #666;
+}
 </style>
 </head>
 <body>
@@ -39,9 +56,9 @@ ul li ul li:hover {background: #666;}
     <li>
       <a href="#">Dropdown Link</a>
       <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
+        <li><a href="#">서브 메뉴1</a></li>
+        <li><a href="#">서브 메뉴2</a></li>
+        <li><a href="#">서브 메뉴3</a></li>
       </ul>
     </li>
   </ul>
